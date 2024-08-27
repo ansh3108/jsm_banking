@@ -1,7 +1,7 @@
 import React from "react";
 
-const layout = () => {
-  return <div>layout</div>;
+const SignIn = () => {
+  return <div>SignIn</div>;
 };
 
-export default layout;
+export default SignIn;

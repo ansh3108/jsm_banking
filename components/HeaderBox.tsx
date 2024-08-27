@@ -6,6 +6,9 @@ const Headerbox = ({
   subtext,
   user,
 }: HeaderBoxProps) => {
+  // Add this console.log to debug the props
+  console.log({ type, title, subtext, user });
+
   return (
     <div className="header-box">
       <h1 className="header-box-title">

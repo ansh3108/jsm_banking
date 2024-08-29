@@ -1,3 +1,4 @@
+import { formatAmount } from "@/lib/utils";
 import React from "react";
 
 const TotalBalanceBox = ({

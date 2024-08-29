@@ -1,5 +1,5 @@
 import { formatAmount } from "@/lib/utils";
-import React from "react";
+import CountUp from "react-countup";
 
 const TotalBalanceBox = ({
   accounts = [],

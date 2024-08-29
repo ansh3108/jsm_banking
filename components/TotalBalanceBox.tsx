@@ -1,6 +1,6 @@
 import React from "react";
 
-const TotalBalanceBox = () => {
+const TotalBalanceBox = ({ accounts = [] }) => {
   return <div>TotalBalanceBox</div>;
 };
 

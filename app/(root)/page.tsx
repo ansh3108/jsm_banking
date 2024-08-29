@@ -1,4 +1,4 @@
-import Headerbox from "@/components/Headerbox";
+import HeaderBox from "@/components/HeaderBox";
 import TotalBalanceBox from "@/components/TotalBalanceBox";
 
 const Home = () => {
@@ -8,7 +8,7 @@ const Home = () => {
     <section className="home">
       <div className="home-content">
         <header className="home-header">
-          <Headerbox
+          <HeaderBox
             type="greeting"
             title="Welcome"
             user={loggedIn?.firstName || "Guest"}
